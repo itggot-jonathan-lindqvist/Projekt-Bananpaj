@@ -63,5 +63,8 @@ a{
 }
 
 @media (min-width:362px)#desktop{
-  .
+  .main{
+    display: flex;
+    width: 60%;
+  }
 }
