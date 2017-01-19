@@ -58,13 +58,66 @@ a{
   margin-top: 100px;
 }
 
-@media (max-width:361px) #mobil{
-
+#bot{
+  margin-bottom: 20px;
 }
 
-@media (min-width:362px)#desktop{
-  .main{
-    display: flex;
-    width: 60%;
+#tob{
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.lol{
+  background-color: red;
+}
+
+/!---------normal css^^-------!/
+
+@media all and (max-device-width:361px) {
+  aside{
+    display: none;
   }
+  footer{
+    display: none;
+  }
+}
+
+@media all and (min-device-width:362px){
+  main{
+    display: flex;
+    align-items: center;
+    width:50%;
+  }
+  body{
+    display: flex;
+    align-items: center;
+  }
+
+  .cont{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  aside{
+    display: flex;
+    width: 15%;
+    height: 700px;
+  }
+  .button{
+    font-size: 25px;
+  }
+  #top{
+    margin-top: 80px;
+  }
+
+  #tob{
+    margin-top: 80px;
+  }
+  footer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: blue;
+    color: white;
+  }
+
 }
